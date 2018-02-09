@@ -1,4 +1,4 @@
-# Tabula
+# Robo-Dash
 Electron based dashboard for the FIRST Robotics Competition.
 
 
