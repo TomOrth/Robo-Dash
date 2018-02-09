@@ -21,9 +21,9 @@ npm start
 ## Development
 If you wish to use this project as a starting point, first fork the repository and then clone it to your desktop.  If you create a new directive, store it in the `dasboard/directives` directory along with a corresponding template file in the `template` director.  Then add a `script` tag to the `index.html` file in order to use it. 
 
-## License
+## License.
 This project is licensed under the MIT License
 
 ## Acknowledgements
-* [Erik Boesen](https://github.com/ErikBoesen) - The primary developer of [FRCDashboard](https://github.com/FRCDashboard) which this project is based on
-* [Tabula](https://github.com/2729StormRobotics/Tabula) - The original project.  It has since deviated from the AngularJS version of a dashboard
+* [Erik Boesen](https://github.com/ErikBoesen) - The primary developer of [FRCDashboard](https://github.com/FRCDashboard) which this project is based on.
+* [Tabula](https://github.com/2729StormRobotics/Tabula) - The original project.  It has since deviated from the AngularJS version of a dashboard.
