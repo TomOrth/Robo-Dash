@@ -25,4 +25,4 @@ If you wish to use this project as a starting point, first fork the repository a
 This project is licensed under the MIT License
 
 ## Acknowledgements
-[*] [Erik Boesen](https://github.com/ErikBoesen) - The primary developer of [FRCDashboard](https://github.com/FRCDashboard) which this project is based on
+* [Erik Boesen](https://github.com/ErikBoesen) - The primary developer of [FRCDashboard](https://github.com/FRCDashboard) which this project is based on
