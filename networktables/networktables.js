@@ -1,4 +1,4 @@
-var NetworkTables;
+﻿var NetworkTables;
 (function (NetworkTables) {
     let keys = {}, connectionListeners = [], connected = false, globalListeners = [], keyListeners = {}, robotAddress = "127.0.0.1";
     ipc.send('ready');
@@ -20,6 +20,7 @@ var NetworkTables;
         delete keys[mesg.key];
     });
     ipc.on('update', (ev, mesg) => {
+	console.log(mesg, mesg.key, keys[mesg.key]);
         let temp = keys[mesg.key];
         temp.flags = mesg.flags;
         temp.val = mesg.val;
