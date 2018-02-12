@@ -9,8 +9,15 @@ angular.module('dashboard').directive('motorSpeed', function(){
         link: function($scope, $element, $attrs){
 	    $scope.speed = 0;
             NetworkTables.addKeyListener($attrs.ntKey, function(key, value, isNew){
-		$scope.speed = value;
-                $scope.$apply();
+                $scope.diff = value - $scope.speed;
+                $scope.direction = $scope.diff > 0;
+                $scope.number = 0;
+		var interval = setInterval(() => {
+                    $scope.number++;
+		    if ($scope.number == Math.abs($scope.diff)) clearInterval(interval);
+                    $scope.speed += $scope.direction ? 1 : -1;
+                    $scope.$apply();
+		}, 5);
             }, true);
         }
     }
