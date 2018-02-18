@@ -1,5 +1,5 @@
 # Robo-Dash
-Electron based dashboard for the FIRST Robotics Competition.
+Electron-based dashboard for the FIRST Robotics Competition.
 
 
 ## Overview
